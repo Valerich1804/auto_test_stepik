@@ -39,5 +39,5 @@ class ProductPageLocators():
 class BasketPageLocators():
     BASKET_EMPTY = (By.ID, "content_inner")
     BASKET_NOT_EMPTY = (By.CLASS_NAME, "basket-title")
-    SUBSTRING_BASKET_EN_GB = "Your basket is empty" #"Ваша корзина пуста"
+    SUBSTRING_BASKET_EN_GB = "Your basket is empty"
     SUBSTRING_BASKET_RU = "Ваша корзина пуста"
